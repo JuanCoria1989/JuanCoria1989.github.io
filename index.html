@@ -1,30 +1,30 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Juan Coria</title>
-    <link rel="stylesheet" href="./style.css">
-    
-    <!-- JavaScript Bundle with Popper 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-     CSS only 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet"/>
-    <!-- MDB -->
-    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Portafolio Juan Coria</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./funcion.js">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet"/>
+  <!-- MDB -->
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 </head>
-<body id="page-wraper">
+
+<body>
+  <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="page-wraper" >
         <!-- Container wrapper -->
         <div class="container-fluid">
         <!-- Navbar brand -->
@@ -42,8 +42,8 @@
         >
             <i class="fas fa-bars"></i>
         </button>
-
-
+  
+  
     
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarButtonsExample">
@@ -55,13 +55,14 @@
             </ul>
             <!-- Left links -->
     
-            <div class="navbar-nav d-flex align-items-center">
-            <a
-                class="nav-item btn btn-dark px-3 "
-                href="https://juancoria1989.github.io"
-                role="button"
-                ><i class="fas fa-home">&nbsp;Inicio</i
-            ></a>
+            <div class="navbar-nav d-flex align-items-center share-buttons-row">
+                    <a
+                        class="nav-item btn btn-dark px-3"
+                        href="https://juancoria1989.github.io"
+                        role="button"
+                        ><i class="fas fa-home">&nbsp;Inicio</i
+                            
+                    ></a>
             &nbsp;
             <a
                 class="nav-item btn btn-dark px-3"
@@ -91,105 +92,14 @@
         <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
+    </header>
 
-
-    <header>
-      
-        <!-- Background image -->
-        <div
-          class="p-5 text-center bg-image"
-          style="
-            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-            height: 600px;
-            margin-top: 0px;
-          "
-        >
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white">
-                <h1 class="mb-3">Heading</h1>
-                <h4 class="mb-3">Subheading</h4>
-                <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-                >Call to action</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Background image -->
-      </header>
-
-    <footer class="bg-light text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #3b5998;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #55acee;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #dd4b39;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #ac2bac;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #0082ca;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <!-- Github -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #333333;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://juancoria1989.github.io">Juan Coria</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-
+<!-- Particulas container --> 
+    <div id="particles-js"></div> 
+        
+<!-- partial -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script  src="./js/script.js"></script>
 
 </body>
 </html>
-<!-- <h1> Hola Mundo<h1/>*/-->
