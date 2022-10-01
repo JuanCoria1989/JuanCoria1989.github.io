@@ -163,7 +163,7 @@ figure .trasera p {
 	font-size: 14px;
 }
 
-@media screen and (max-width: 992px) { 
+@media screen and (max-width: 300px) { 
 	figure .trasera {
 		/*position: relative;*/
 		backface-visibility:visible;
