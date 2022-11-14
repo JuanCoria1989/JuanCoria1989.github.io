@@ -294,9 +294,12 @@
 	/* HERO
 	================================================== */
 	.hero .col-md-6:first-child {
-		top: 30%;
+		top: 35%;
+		width: 80%;
+		height: 30%;
+		margin-left: 11%;
 	}
-
+	
 	.hero h1 {
 		font-size: 32px
 		margin-bottom: 10px;

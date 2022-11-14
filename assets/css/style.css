@@ -226,7 +226,7 @@ html, body {
 
 .hero .col-md-6:first-child {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -234,6 +234,8 @@ html, body {
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     z-index: 2;
+    width: 35%;
+    height: 30%;
 }
 
 .hero .col-md-6:last-child {
@@ -245,7 +247,7 @@ html, body {
 .hero h1 {
     font-size: 46px;
     font-weight: 700;
-    margin: 0 0 15px;
+    margin: 30px 0 15px;
     text-transform: uppercase;
 }
 
