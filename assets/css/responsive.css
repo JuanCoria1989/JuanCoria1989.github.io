@@ -298,8 +298,9 @@
 		width: 80%;
 		height: 30%;
 		margin-left: 11%;
+		margin-top: -100px;
 	}
-	
+
 	.hero h1 {
 		font-size: 32px
 		margin-bottom: 10px;
