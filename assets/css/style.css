@@ -600,3 +600,9 @@ element.style {
     padding: 29.6973px 0px;
     box-shadow: rgb(0 0 0 / 0%) 0px 0px 20px 6px;
 }
+
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 1.5s;
+  }
