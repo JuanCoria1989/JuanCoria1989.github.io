@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Libreria de Animacion https://ianlunn.github.io/Hover/ -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Libreria de Animacion por scroll https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -99,7 +101,7 @@
                 </div>
             
                 <div class="col-md-6 text-right animate__animated animate__backInRight">
-                    <img src="assets/img/juancoria.png" alt="Juan Coria">
+                    <img src="assets/img/programando1.gif" alt="Juan Coria">
                 </div>
 
             </div>
@@ -131,122 +133,108 @@
         <br>
         <br>
 
-        <section id="service" class="site-section section-services overlay text-center">
+        <section id="service" data-aos="fade-up" data-aos-duration="3000" class="site-section section-services overlay text-center ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>Conocimientos</h3>
+                        <h3 style="color: white; text-shadow: -1px 0px 7px rgb(0 0 0);">CONOCIMIENTOS</h3>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                     </div>
-                    <div class="col-md-12">
-                        <h4>Bases de Datos</h4>
-                   
+                    <div class="col-md-12" style="margin: 0 0 20px;">
+                        <h4 style="color: white; text-shadow: -1px 0px 7px rgb(0 0 0);">BASES DE DATOS</h4>
                     </div>
-                    <div class="col-sm-3">
+                    <div  data-aos="fade-up-right" data-aos-duration="1500" class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Front End Developer">
-                            <h4>Front-end</h4>
-                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
+                            <img src="assets/img/oracle.png" alt="Front End Developer" width="80%" height="80%" style="box-shadow: -1px -1px 4px black; border-radius: 30px;">
+                            <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
                         </div><!-- /.service -->
                     </div>
-                    <div class="col-sm-3">
+                    <div data-aos="flip-down" data-aos-duration="1500" class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/back-end.svg" alt="Back End Developer">
-                            <h4>Back-end</h4>
-                            <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
+                            <img src="assets/img/mysql.png" alt="Back End Developer" width="80%" height="80%" style="box-shadow: -1px -1px 4px black; border-radius: 30px;">
+                             <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
                         </div><!-- /.service -->
                     </div>
-                    <div class="col-sm-3">
+                    <div data-aos="fade-up-left" data-aos-duration="1500" class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                            <img src="assets/img/sqlserver1.png" alt="Coding" width="80%" height="80%" style="box-shadow: -1px -1px 4px black; border-radius: 30px;">
+                            <!-- /.service <h4>Front-end</h4>
+                                <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
                         </div><!-- /.service -->
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-12" style="margin: 0 0 20px;">
+                        <h4 style="color: white; text-shadow: -1px 0px 7px rgb(0 0 0);margin-top: 30px;">LENGUAJES DE PROGRAMACIÓN</h4>
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-duration="1500" class="col-sm-6">
                         <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                            <img src="assets/img/Python1.png" alt="Front End Developer" width="60%" height="60%" style="box-shadow: -1px -1px 4px black; border-radius: 30px;">
+                            <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
                         </div><!-- /.service -->
                     </div>
-                    
+                    <div data-aos="fade-up-left" data-aos-duration="1500" class="col-sm-6">
+                        <div class="service">
+                            <img src="assets/img/ c.png" alt="Back End Developer" width="60%" height="60%" style="box-shadow: -1px -1px 4px black; border-radius: 30px; ">
+                             <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>   
+                    <div class="col-md-12" style="margin: 0 0 20px;">
+                        <h4 style="color: white; text-shadow: -1px 0px 7px rgb(0 0 0);margin-top: 30px;">FRAMEWORKS</h4>
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-duration="1500" class="col-sm-6">
+                        <div class="service">
+                            <img src="assets/img/django.png" alt="Front End Developer" width="60%" height="60%" style="box-shadow: -1px -1px 4px black; border-radius: 30px;">
+                            <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>
+                    <div data-aos="fade-up-left" data-aos-duration="1500" class="col-sm-6">
+                        <div class="service">
+                            <img src="assets/img/NET-Framework-Symbol.png" alt="Back End Developer" width="70%"  style="box-shadow: -1px -1px 4px black; border-radius: 30px; height: 285px; ">
+                             <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>   
+                    <div class="col-md-12" style="margin: 0 0 20px;">
+                        <h4 style="color: white; text-shadow: -1px 0px 7px rgb(0 0 0);margin-top: 30px;">MAQUETACIÓN</h4>
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-duration="1500" class="col-sm-3">
+                        <div class="service">
+                            <img src="assets/img/html.png" alt="Front End Developer" width="100%" height="100%" style="box-shadow: -1px -1px 4px black; border-radius: 30px;">
+                            <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>
+                    <div data-aos="fade-up-right" data-aos-duration="1500" class="col-sm-3">
+                        <div class="service">
+                            <img src="assets/img/css1.png" alt="Back End Developer" width="100%" height="100%" style="box-shadow: -1px -1px 4px black; border-radius: 30px; ">
+                             <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>   
+                    <div data-aos="fade-up-left" data-aos-duration="1500" class="col-sm-3">
+                        <div class="service">
+                            <img src="assets/img/boostrap1.png" alt="Back End Developer" width="100%" height="100%" style="box-shadow: -1px -1px 4px black; border-radius: 30px; ">
+                             <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>   
+                    <div data-aos="fade-up-left" data-aos-duration="1500" class="col-sm-3">
+                        <div class="service">
+                            <img src="assets/img/materialize-logo.png" alt="Back End Developer" width="100%" height="140%" style="box-shadow: -1px -1px 4px black; border-radius: 30px; height: 220px; ">
+                             <!-- /.service <h4>Front-end</h4>
+                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
+                        </div><!-- /.service -->
+                    </div>   
                 </div>
             </div>
         </section><!-- /.secton-services -->
         <br>
      
 
-        <section id="portfolio" class="site-section section-portfolio" style="background-color:#a4dcef ;">
-            <div class="container">
-                <div class="text-center">
-                    <h3>Conocimientos</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/python.png" class="img-res" alt="" style="border-radius: 30px; box-shadow: -5px -4px 4px black"  >
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="" style="border-radius: 30px;">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-3.jpg" class="img-res" alt="" style="border-radius: 30px;">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="" style="border-radius: 30px;">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="" style="border-radius: 30px;">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="" style="border-radius: 30px;">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-portfolio -->
 
         <section class="site-section section-skills " style="background-color: rgb(248, 242, 242);">
             <div class="container" >
@@ -585,6 +573,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <!-- Script de de Scroll-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!-- Script de Wow-->
     <script src="/assets/js/wow.js"></script>
     <script>
