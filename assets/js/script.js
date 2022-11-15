@@ -29,7 +29,7 @@ $(function() {
     var $section = $('.section-skills');
     function loadDaBars() {
 	    $('.progress .progress-bar').progressbar({
-	        transition_delay: 500
+	        transition_delay: 2000
 	    });
     }
     

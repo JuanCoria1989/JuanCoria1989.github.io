@@ -312,13 +312,16 @@
 	}
 
 	.hero img {
-		height: 360px
+		height: 360px;
+		width: 420px;
+		
 	}
 
 	/* SITEMAIN
 	================================================== */
 	.site-main {
 		margin-bottom: 140px;
+		
 	}
 
 	/* site-section */
