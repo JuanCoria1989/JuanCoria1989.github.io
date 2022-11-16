@@ -461,7 +461,6 @@ html, body {
 .modal-header {
     position: relative;
     padding: 0;
-    height: 500px;
 }
 
 .modal-header .close {
@@ -469,7 +468,7 @@ html, body {
     right: 0;
     padding: 10px 11px;
     margin-top: 0;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     font-size: 16px;
     color: #212121;
     border-left: 1px solid #212121;
